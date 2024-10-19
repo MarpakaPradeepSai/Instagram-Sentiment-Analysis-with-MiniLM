@@ -14,7 +14,7 @@ def download_file_from_github(url, local_path):
         st.error(f"Failed to download {url}: Status code {response.status_code}")
 
 # URLs of your model files on GitHub
-repo_url = 'https://github.com/MarpakaPradeepSai/Instagram-Sentiment-Analysis-with-MiniLM/raw/main/minilm_model'  # Change to your actual repo URL
+repo_url = 'https://github.com/MarpakaPradeepSai/Instagram-Sentiment-Analysis-with-MiniLM/raw/main/MiniLM'  # Change to your actual repo URL
 files = ['config.json', 'model.safetensors', 'special_tokens_map.json', 'tokenizer_config.json', 'vocab.txt']
 
 # Create model directory if it doesn't exist
